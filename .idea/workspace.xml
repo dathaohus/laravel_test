@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84f3bd4-ea67-437e-ae9d-898c6a1cec23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/laravel/resources/views/signin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/SignupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/SignupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Requests/SingupRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Requests/SingupRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Models/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Models/Users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/SinginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/SinginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610071425625</updated>
-      <workItem from="1610071427531" duration="8709000" />
+      <workItem from="1610071427531" duration="13410000" />
     </task>
     <task id="LOCAL-00001" summary="signup">
       <created>1610074747207</created>
@@ -58,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610074747208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="signin">
+      <created>1610080535730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610080535730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,21 +76,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="signup" />
+    <MESSAGE value="signin" />
+    <option name="LAST_COMMIT_MESSAGE" value="signin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610073049534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610073049534" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610075070831">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610086328381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610075070831" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1610074745205">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610086328381" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1610080534337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610074745205" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610080534337" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1610074662376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

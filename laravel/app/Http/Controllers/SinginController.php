@@ -13,15 +13,15 @@ class SinginController extends Controller
 
     public function login(SigninRequest $request){
         $validated = $request->validated();
-        $credenticals = [
-            'email' => $request -> email,
-            'password' => $request -> password,
-        ];
 
-       if (Auth::guard('user')->attempt($credenticals)){
+
+       if (Auth::guard('user')->attempt([
+           'email' => $request -> email,
+           'password' => $request -> password,
+       ])){
            dd('đăng nhập thành công');
        }else{
-           dd('Tài khoản hocawcj mật khẩu không chính xác');
+           dd('Tài khoản hoặc mật khẩu không chính xác');
        }
     }
 }

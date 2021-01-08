@@ -18,3 +18,7 @@ Route::post('/signup',[\App\Http\Controllers\SignupController::class, 'store']);
 Route::get('/signin',[\App\Http\Controllers\SinginController::class, 'index']);
 Route::post('/signin',[\App\Http\Controllers\SinginController::class, 'login']);
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
