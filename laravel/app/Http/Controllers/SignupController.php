@@ -14,7 +14,7 @@ class SignupController extends Controller
     public function store(SingupRequest $request){
         $validated = $request->validated();
         $users = Users::create(request(['name','email','password']));
-        return redirect()->to('/signup');
+        return redirect()->to(dd('Đăng ký thành công'));
 
     }
 

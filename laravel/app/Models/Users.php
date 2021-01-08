@@ -5,9 +5,10 @@ namespace App\Models;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\User;
 use Illuminate\Notifications\Notifiable;
 
-class Users extends Model
+class Users extends User
 {
     use HasFactory, Notifiable;
     public $table = "users";
